@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <!-- 4x4 グリッドレイアウト -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:columnCount="4"
+        android:layout_centerInParent="true">
+
+        <!-- 16個のボタンを配置 -->
+        <Button
+            android:id="@+id/button_0"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_1"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_2"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_3"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_4"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_5"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_6"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_7"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_8"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_9"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_10"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_11"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_12"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_13"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_14"
+            style="@style/TileButton" />
+        <Button
+            android:id="@+id/button_15"
+            style="@style/TileButton" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

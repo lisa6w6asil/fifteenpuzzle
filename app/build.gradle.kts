@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.example.fifteenpuzzle"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.fifteenpuzzle"
         minSdk = 29
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
